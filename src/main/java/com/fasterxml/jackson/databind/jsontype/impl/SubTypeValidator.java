@@ -89,6 +89,7 @@ public class SubTypeValidator
         // [databind#2341]: jdom/jdom2 (2.9.9.1)
         s.add("org.jdom.transform.XSLTransformer");
         s.add("org.jdom2.transform.XSLTransformer");
+        s.add("org.jdom.transform.XSLTransformerTest");
 
         // [databind#2387]: EHCache
         s.add("net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup");
